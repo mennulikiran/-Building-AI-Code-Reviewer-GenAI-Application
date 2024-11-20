@@ -1,50 +1,53 @@
 # -Building-AI-Code-Reviewer-GenAI-Application
  Building AI Code Reviewer GenAI Application
-AlphaBot - Python Code Reviewer
-PROJECT OVERVIEW
-AlphaBot is an AI-powered code reviewer application that enables developers to review Python code for bugs, logical errors, and areas of improvement. Using AlphaBot, users can submit their Python code, receive detailed feedback, and gain insights to enhance their coding practices.
+# AI Code Reviewer - GenAI Application
 
-KEY FEATURES
-1. User-Friendly Interface
-Built with Streamlit, providing an intuitive and interactive user interface.
-Users can easily input Python code through a chat interface.
-2. AI-Driven Code Analysis
-Powered by Google Gemini AI (Generative AI) for efficient and accurate code reviews.
-Feedback is categorized into:
-🐞 Bug Report: Identifies potential bugs or logical flaws.
-🛠️ Fixed Code: Provides optimized or corrected code snippets.
-💡 Code Insights: Offers practical tips and improvements for better coding practices.
-3. Interactive Chat System
-Real-time conversation with the AI to review and improve Python code.
-Maintains session history for seamless multi-turn interactions.
-TECH STACK
-✅ Frontend: Streamlit for interactive UI.
-✅ Backend: Google Generative AI (Gemini 1.5 flash model).
-✅ Deployment: Can be hosted locally or on any cloud platform.
-HOW TO USE
-Step 1: Clone the Repository
-bash
-Copy code
-git clone https://github.com/<your-username>/alpha-bot-python-code-reviewer.git
-cd alpha-bot-python-code-reviewer
-Step 2: Install Dependencies
-Install the required libraries using pip:
+This repository contains an AI-powered code reviewer application built using **Streamlit** and **Google's Gemini Generative AI**. The application provides conversational assistance for code reviews, helping users debug, optimize, and understand their code through an intuitive chat interface.
+
+---
+
+## Features
+
+- Real-time conversational code review assistance.
+- Maintains session history for seamless interactions.
+- Lightweight and easy-to-deploy using Streamlit.
+- Integrates with Google's Generative AI `gemini-1.5-flash` model.
+
+---
+
+## Prerequisites
+
+Before running the application, ensure you have the following:
+
+- Python 3.8 or above.
+- A valid Google API key for Generative AI.
+- Necessary Python dependencies (specified in `requirements.txt`).
+
+---
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/<your-username>/ai-code-reviewer.git
+   cd ai-code-reviewer
+
+2. Install Dependencies Use pip to install the required libraries:
 
 bash
-Copy code
-pip install -r requirements.txt
-Step 3: Set Up the API Key
+
+**pip install -r requirements.txt**
+
+
+3.Set Up Google Generative AI
+
 Obtain an API key from Google Cloud Console.
-Replace the placeholder in the app.py file:
-python
-Copy code
-genai.configure(api_key="YOUR_API_KEY")
-Step 4: Run the Application
-Start the Streamlit application:
+Replace the placeholder in the **genai.configure(api_key="YOUR_API_KEY")** section with your API key.
+
+
+4.Run the Application Execute the following command to start the Streamlit application:
 
 bash
-Copy code
-streamlit run app.py
-Step 5: Interact with AlphaBot
-Enter Python code into the chat input.
-Receive feedback, including bug reports, optimized code snippets, and coding insights.
+**streamlit run app.py**
+Access the Application Open your browser and navigate to http://localhost:___.
+
