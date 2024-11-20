@@ -31,6 +31,8 @@ Before running the application, ensure you have the following:
 
 
 ## Chat_Bot_Working:
+![Screenshot 2024-11-20 201359](https://github.com/user-attachments/assets/341334d8-b5ed-4b3e-9250-6f2110586e15)
+
 
 
 ## Setup Instructions
