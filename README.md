@@ -25,6 +25,14 @@ Before running the application, ensure you have the following:
 
 ---
 
+
+## Home Page
+![Screenshot 2024-11-20 201409](https://github.com/user-attachments/assets/c86231c9-c9cc-4e9a-9673-4f9147ae215f)
+
+
+## Chat_Bot_Working:
+
+
 ## Setup Instructions
 
 1. **Clone the Repository**
